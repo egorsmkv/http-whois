@@ -6,3 +6,4 @@ Description is empty.
 
 - [ ] Add tests (+ Travis+CI)
 - [ ] Add [Throttle](https://github.com/dryruby/rack-throttle)
+- [ ] Add Dockerfile and image to Docker Hub
