@@ -4,5 +4,5 @@ Description is empty.
 
 ## TODO
 
-[ ] Add tests (+ Travis+CI)
-[ ] Add [Throttle](https://github.com/dryruby/rack-throttle)
+- [ ] Add tests (+ Travis+CI)
+- [ ] Add [Throttle](https://github.com/dryruby/rack-throttle)
