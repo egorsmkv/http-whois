@@ -29,7 +29,7 @@ Empty.
 
 ```shell
 bundle exec rackup
-# ... and go to http://127.0.0.1:9292/
+# ... and see whois http://127.0.0.1:9292/whois/github.com
 ```
 
 ## TODO
