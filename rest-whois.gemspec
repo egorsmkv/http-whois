@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.name          = 'rest-whois'
   spec.summary       = 'Self-hosted whois RESTful API.'
-  spec.homepage      = 'https://github.com/egorsmkv/rest-whois.'
+  spec.homepage      = 'https://github.com/egorsmkv/rest-whois'
   spec.license       = 'BSD-3-Clause'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
