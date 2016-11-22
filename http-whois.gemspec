@@ -1,16 +1,18 @@
 # coding: utf-8
+
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rest/whois/version'
+
+require 'http/whois/version'
 
 Gem::Specification.new do |spec|
-  spec.version       = Rest::Whois::VERSION
+  spec.version       = Http::Whois::VERSION
   spec.authors       = ['Egor Smolyakov']
   spec.email         = ['egorsmkv@gmail.com']
 
-  spec.name          = 'rest-whois'
-  spec.summary       = 'Self-hosted whois RESTful API.'
-  spec.homepage      = 'https://github.com/egorsmkv/rest-whois'
+  spec.name          = 'http-whois'
+  spec.summary       = 'Self-hosted whois HTTP API.'
+  spec.homepage      = 'https://github.com/egorsmkv/http-whois'
   spec.license       = 'BSD-3-Clause'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

@@ -12,8 +12,8 @@ libraries.each do |path_name|
 end
 
 module WhoisAPI
-  class App < Rest::Whois::Base
-    use Rest::Whois::Routes
+  class App < Http::Whois::Base
+    use Http::Whois::Routes
   end
 end
 

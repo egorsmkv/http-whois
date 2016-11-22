@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-module Rest
+module Http
   module Whois
     class Base < Sinatra::Base
       configure do

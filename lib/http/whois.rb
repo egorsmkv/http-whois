@@ -1,5 +1,5 @@
-require 'rest/whois/version'
-require 'rest/whois/base'
+require 'http/whois/version'
+require 'http/whois/base'
 
 require 'json'
 
@@ -9,7 +9,7 @@ require 'whois-parser'
 # Alias for whois library
 WhoisLib = Whois
 
-module Rest
+module Http
   module Whois
     class Routes < Base
       get '/whois/:domain' do
